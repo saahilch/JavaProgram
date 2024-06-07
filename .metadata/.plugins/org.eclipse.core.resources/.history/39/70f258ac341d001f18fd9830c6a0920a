@@ -1,0 +1,22 @@
+package com.FactorialNumber;
+
+import java.util.Scanner;
+import java.math.BigInteger;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		int number, c;
+		BigInteger inc = new BigInteger("1");
+		BigInteger fact = new BigInteger("1");
+
+		Scanner sc = new Scanner(System.in);
+		number = sc.nextInt();
+		for (int i = 1; i <= number; i++) {
+			fact = fact.multiply(inc);
+			inc = inc.add(BigInteger.ONE);
+		}
+		System.out.println(number + "!=" + fact);
+	}
+
+}

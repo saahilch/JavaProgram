@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;SpringBootRestAPIProject&apos;&#x0D;&#x0A;- Original project: &apos;SpringBootRestAPIProject&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     SpringBootRestAPIProject/src/main/java/com.sjprogramming.restapi.controller&#x0D;&#x0A;     SpringBootRestAPIProject/src/main/java/com.sjprogramming.restapi.entity&#x0D;&#x0A;     SpringBootRestAPIProject/src/main/java/com.sjprogramming.restapi.repository" description="Delete elements" element1="/src\/main\/java&lt;com.sjprogramming.restapi.repository" element2="/src\/main\/java&lt;com.sjprogramming.restapi.entity" element3="/src\/main\/java&lt;com.sjprogramming.restapi.controller" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1715457836282" subPackages="false" version="1.0"/>
+</session>

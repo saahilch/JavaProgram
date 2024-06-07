@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Practice {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Eneter String To Reverse");
+		String str = sc.nextLine();
+		char arr[] = str.toCharArray();
+		int length = str.length();
+		System.out.println("total length" + length);
+		for (int i = arr.length - 1; i >= 0; i--) {
+System.out.println(arr[i]);
+		}
+		
+	}
+
+}

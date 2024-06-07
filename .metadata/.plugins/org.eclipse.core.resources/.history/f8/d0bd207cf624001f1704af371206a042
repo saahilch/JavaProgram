@@ -9,9 +9,6 @@ public class Practice {
 		int length=sc.nextInt();
 		int sum []=new int[length];
 		System.out.println("Enter Element In Array");
-		for(int i=0;) {
-			
-		}
 		
 		/*
 		 * Scanner sc = new Scanner(System.in); // String str; char ch[] =

@@ -18,7 +18,7 @@ public class ArrayReversal {
 		}
 
 		System.out.println();
-		System.out.println("-------- -------------");
+		System.out.println("---------------------");
 
 		// Using String Buffer Method
 		StringBuffer sbf = new StringBuffer(str);

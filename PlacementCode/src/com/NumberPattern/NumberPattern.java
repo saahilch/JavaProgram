@@ -3,7 +3,7 @@ package com.NumberPattern;
 public class NumberPattern {
 
 	public static void main(String[] args) {
-		int row = 5, num = 1;
+		int row = 4, num = 1;
 		for (int i = 1; i <= row; i++) {
 			for (int j = 2; j <= i; j++) {
 				System.out.print(num + " ");

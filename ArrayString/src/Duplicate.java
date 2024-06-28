@@ -1,4 +1,7 @@
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
@@ -30,7 +33,7 @@ public class Duplicate {
 		System.out.println(sbc);
 		System.out.println("---------------------------------------------------");
 
-		List<String> originalList = Arrays.asList("aa", "aa", "bb", "cc");
+		List<String> originalList = Arrays.asList("aa", "aa", "bb", "cc", "1", "2", "-1", "-3", "-2");
 		List<String> removedList = originalList.stream().distinct().collect(Collectors.toList());
 		System.out.println(removedList);
 
@@ -44,7 +47,16 @@ public class Duplicate {
 		for (int i = removedList.size() - 1; i >= 0; i--) {
 
 			System.out.print("[" + removedList.get(i) + "]");
+
 		}
+		Collections.sort(originalList);
+		System.out.println();
+		System.out.println("---------------------------------------------------");
+		System.out.println(originalList);
+		System.out.println("---------------------------------------------------");
+		List<String> ace = originalList.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+		// Collections.sort(originalList.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()));
+		System.out.println(ace);
 	}
 
 }

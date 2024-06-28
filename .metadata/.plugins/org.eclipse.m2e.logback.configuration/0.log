@@ -3427,3 +3427,5 @@ org.eclipse.core.runtime.CoreException: Launch configuration Application referen
 2024-06-19 21:26:15,903 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\root\Desktop\CDAC-ALL Module\study material\Web Based Java\Template Projects\spring_boot_backend_template\spring_boot_backend_template\src\test\resources
 2024-06-24 00:29:28,640 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-06-25 22:10:43,817 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-27 19:03:05,454 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-28 19:31:45,451 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

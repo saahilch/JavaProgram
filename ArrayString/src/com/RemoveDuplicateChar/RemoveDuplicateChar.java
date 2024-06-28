@@ -1,8 +1,11 @@
 package com.RemoveDuplicateChar;
 
+import java.util.Arrays;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class RemoveDuplicateChar {
 
@@ -53,6 +56,14 @@ public class RemoveDuplicateChar {
 			sb3.append(c);
 		}
 		System.out.println(sb3);
+		
+		//Using List Method
+		
+		List<String>originalList=Arrays.asList("aa","bb","aa");
+		List<String>removedList=originalList.stream().distinct().collect(Collectors.toList());
+		System.out.println("Original list "+ originalList + "\n RemovedList - "+removedList);
+		
+		
 
 	}
 

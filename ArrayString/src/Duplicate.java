@@ -28,11 +28,23 @@ public class Duplicate {
 		}
 
 		System.out.println(sbc);
-		System.out.println("----------------------------------------------");
+		System.out.println("---------------------------------------------------");
 
-		List<String> originalList = Arrays.asList("aa", "aa", "bbb","11","11");
+		List<String> originalList = Arrays.asList("aa", "aa", "bb", "cc");
 		List<String> removedList = originalList.stream().distinct().collect(Collectors.toList());
 		System.out.println(removedList);
+
+		System.out.println("---------------------------------------------------");
+		char arr[] = str.toCharArray();
+		for (int i = originalList.size() - 1; i >= 0; i--) {
+			System.out.print(originalList.get(i));
+		}
+		System.out.println();
+		System.out.println("---------------------------------------------------");
+		for (int i = removedList.size() - 1; i >= 0; i--) {
+
+			System.out.print("[" + removedList.get(i) + "]");
+		}
 	}
 
 }

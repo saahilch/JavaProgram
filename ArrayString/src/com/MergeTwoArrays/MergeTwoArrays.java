@@ -11,9 +11,11 @@ public class MergeTwoArrays {
 		int a = array1.length;
 		int b = array2.length;
 		int[] result = new int[a + b];
+		// System.arraycopy(src, srcPos, dest, destPos, length);
 		System.arraycopy(array1, 0, result, 0, a);
 		System.arraycopy(array2, 0, result, a, b);
 		System.out.println(Arrays.toString(result));
+		
 
 	}
 

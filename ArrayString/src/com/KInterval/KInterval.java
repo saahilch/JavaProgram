@@ -1,13 +1,14 @@
 package com.KInterval;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class KInterval {
 	public static void main(String[] args) {
-
+		Scanner sc=new Scanner(System.in);
 		int[] arr = { 50, 60, 80, 77, 50, 60,99,100,101 };
 		int n = arr.length;
-		int k = 3;
+		int k =sc.nextInt();
 		printMAX(arr, n, k);
 	}
 

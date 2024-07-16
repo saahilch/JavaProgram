@@ -3437,3 +3437,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration Application referen
 2024-06-28 19:59:34,701 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-06-28 19:59:34,701 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2024-06-28 19:59:34,701 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\root\Desktop\CDAC-ALL Module\study material\Web Based Java\Template Projects\spring_boot_backend_template\spring_boot_backend_template\src\test\resources
+2024-07-16 19:29:46,397 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

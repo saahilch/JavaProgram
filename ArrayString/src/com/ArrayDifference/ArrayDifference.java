@@ -13,7 +13,7 @@ public class ArrayDifference {
 	 * again declare for loop to get every elemtnt of array 
 	 * then store every element into min & max
 	 * ten calculate difference between each element
-	 * */ 
+	 * */    
 	static int differenceOfAraayElement(int array[]) {
 		int sum = 0, n = array.length;
 		for (int i = 0; i < n; i++) {

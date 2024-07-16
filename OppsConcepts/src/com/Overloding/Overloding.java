@@ -1,6 +1,6 @@
-package com.Inhiritance;
+package com.Overloding;
 
-public class Inhiritance {
+public class Overloding {
 
 	static int add(int a, int b) {
 		return a + b;

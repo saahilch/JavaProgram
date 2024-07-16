@@ -4,8 +4,9 @@ public class Overriding {
 	public static void main(String[] args) {
 		//Creating Both classes object then with the help of these 
 		//calling the functions
-		Dog d=new Dog();
 		Animal a=new Animal();
+		Dog d=new Dog();
+		
 				
 		d.eat();
 		a.eat();

@@ -11,10 +11,11 @@ public class Overloding {
 	}
 
 	public static void main(String[] args) {
+		int a=5,b=10,c=15;
 		System.out.println("add() with 2 parameters");
-		System.out.println(add(4, 6));
+		System.out.println(add(a,b));
 		System.out.println("add() with 3 parameters");
-		System.out.println(add(4, 6, 4));
+		System.out.println(add(a,b,c));
 	}
 
 }
